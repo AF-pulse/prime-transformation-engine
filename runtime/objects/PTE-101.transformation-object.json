@@ -1,0 +1,195 @@
+{
+  "created_at": "2026-06-29T07:13:33+00:00",
+  "created_by": "prime-transformation-engine",
+  "ctl_layer": "CTL-E",
+  "grounding": {
+    "behavioral_constraints": [
+      "Instantiate exactly one local Transformation Object.",
+      "Use governed PrimeMind DBA/PTE retrieval and search as grounding.",
+      "Preserve provenance, publication status, chunk identity, and effective crystal identity when citations are not exposed directly.",
+      "Assign CTL-E and ET because this object concerns minimum executable runtime capability.",
+      "Persist locally only; do not orchestrate, deploy, write to PrimeMind, write to ProMind, mutate IAM, or persist graph state.",
+      "Fail closed when grounding references or provenance are missing."
+    ],
+    "identity": {
+      "groups": [
+        "GROUP_AGENT"
+      ],
+      "identity_id": "prime-transformation-engine",
+      "identity_type": "service_account",
+      "tenant_id": "primemind"
+    },
+    "open_assumptions": [],
+    "queries": [
+      "Transformation Objects",
+      "Cognitive Transformation Layers"
+    ],
+    "references": [
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1",
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__004__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "direct retrieval exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "DBA-08",
+        "provenance": {
+          "source": {
+            "case": "CRY_F9562E0C1C77",
+            "crystal_id": "CRY_F9562E0C1C77",
+            "owner": "promind",
+            "project": "PPG",
+            "system": "ProMind"
+          }
+        },
+        "publication_status": "knowledge",
+        "relevance": "Progressive Transformation constrains the object to minimum incremental capability.",
+        "retrieval_path": "/api/reference/knowledge/DBA-08",
+        "title": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1",
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__003__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "direct retrieval exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "DBA-09",
+        "provenance": {
+          "source": {
+            "case": "CRY_F9562E0C1C77",
+            "crystal_id": "CRY_F9562E0C1C77",
+            "owner": "promind",
+            "project": "PPG",
+            "system": "ProMind"
+          }
+        },
+        "publication_status": "knowledge",
+        "relevance": "Transformation Lineage constrains provenance, grounding, and continuity references.",
+        "retrieval_path": "/api/reference/knowledge/DBA-09",
+        "title": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1",
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__002__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "direct retrieval exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "DBA-10",
+        "provenance": {
+          "source": {
+            "case": "CRY_F9562E0C1C77",
+            "crystal_id": "CRY_F9562E0C1C77",
+            "owner": "promind",
+            "project": "PPG",
+            "system": "ProMind"
+          }
+        },
+        "publication_status": "knowledge",
+        "relevance": "Cognitive Orchestration constrains this step to non-orchestrating local instantiation.",
+        "retrieval_path": "/api/reference/knowledge/DBA-10",
+        "title": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1"
+        ],
+        "citation_status": "search result exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1",
+        "knowledge_object_id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001",
+        "provenance": {
+          "source": {
+            "case": "CRY_F9562E0C1C77",
+            "crystal_id": "CRY_F9562E0C1C77",
+            "owner": "promind",
+            "project": "PPG",
+            "system": "ProMind"
+          }
+        },
+        "publication_status": "knowledge",
+        "relevance": "Returned by governed search for Transformation Objects.",
+        "retrieval_path": "/api/reference/knowledge/search",
+        "search_query": "Transformation Objects",
+        "title": "Deep Behavior Artefacts (DBA) for the ProMind Transformation Extension (PTE) - Part 1"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__002__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "search result exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__002__SOURCE-ARTIFACT",
+        "knowledge_object_id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001",
+        "provenance": {
+          "source_path": "727"
+        },
+        "publication_status": "knowledge",
+        "relevance": "Returned by governed search for Transformation Objects.",
+        "retrieval_path": "/api/reference/knowledge/search",
+        "search_query": "Transformation Objects",
+        "title": "DBA-10 \u2014 Cognitive Orchestration"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__003__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "search result exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__003__SOURCE-ARTIFACT",
+        "knowledge_object_id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001",
+        "provenance": {
+          "source_path": "726"
+        },
+        "publication_status": "knowledge",
+        "relevance": "Returned by governed search for Transformation Objects.",
+        "retrieval_path": "/api/reference/knowledge/search",
+        "search_query": "Transformation Objects",
+        "title": "DBA-09 \u2014 Transformation Lineage"
+      },
+      {
+        "chunk_ids": [
+          "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__004__SOURCE-ARTIFACT"
+        ],
+        "citation_status": "search result exposed provenance/chunk/crystal metadata; explicit citation field not present",
+        "effective_crystal_id": "CRY_F9562E0C1C77",
+        "id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__004__SOURCE-ARTIFACT",
+        "knowledge_object_id": "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001",
+        "provenance": {
+          "source_path": "725"
+        },
+        "publication_status": "knowledge",
+        "relevance": "Returned by governed search for Cognitive Transformation Layers.",
+        "retrieval_path": "/api/reference/knowledge/search",
+        "search_query": "Cognitive Transformation Layers",
+        "title": "DBA-08 \u2014 Progressive Transformation"
+      }
+    ],
+    "source": "PrimeMind governed DBA/PTE read-only retrieval"
+  },
+  "id": "PTE-101",
+  "intent": "Create the minimum runtime capability required for Prime Transformation Engine to instantiate governed Transformation Objects.",
+  "provenance": {
+    "created_from": "governed PrimeMind DBA/PTE retrieval",
+    "created_from_identity": "prime-transformation-engine",
+    "effective_crystal_ids": [
+      "CRY_F9562E0C1C77"
+    ],
+    "publication_statuses": [
+      "knowledge"
+    ],
+    "reference_ids": [
+      "DBA-08",
+      "DBA-09",
+      "DBA-10",
+      "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__superchunk__v1",
+      "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__002__SOURCE-ARTIFACT",
+      "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__003__SOURCE-ARTIFACT",
+      "K-DEEP-BEHAVIOR-ARTEFACTS-DBA-FOR-THE-PROMIND-TRANSFORMATION-EXTENSION-PTE-PART-1-001__subchunk__004__SOURCE-ARTIFACT"
+    ]
+  },
+  "state": "grounded",
+  "substrate": "ET",
+  "title": "Instantiate One Governed Transformation Object"
+}
